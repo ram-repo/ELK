@@ -35,3 +35,4 @@
 * Different components In the stack can become difficult to handle when you move on to complex setup
 * There’s nothing like trial and error. Thus, the more you do, the more you learn along the way
 
+## will be contionous....
