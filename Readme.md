@@ -21,7 +21,7 @@
 ## Application Based:
 ![preview](./images/elk1.png)
 
-## [ ```Click Here for Installation steps``` ](Installation/Readme.md) 
+## [ ```Click Here for Installation steps``` ](Installation&configuration/Readme.md) 
 
 ## Advantages and Disadvantages of ELK stack
 ### Advantages
