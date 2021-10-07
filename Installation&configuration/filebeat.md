@@ -8,25 +8,20 @@ sudo apt-get install filebeat -y
 
 
 ### sudo nano /etc/filebeat/filebeat.yml
-```
-#output.elasticsearch:
-  # Array of hosts to connect to.
-#  hosts: ["localhost:9200"]
-Comment out the following lines:
 
-#output.elasticsearch:
-  # Array of hosts to connect to.
-#  hosts: ["localhost:9200"]
+### Filebets Inputs
+![preview](./images/filebeats1.png)
 
-# Uncomment the following lines:
+### General Fields and Tags
+![preview](./images/filebeats2.png)
 
-output.logstash:
-hosts: ["localhost:5044"]
-```
+### Logstash Configuration
+![preview](./images/filebeats3.png)
+
 ### Restart service 
 ```
-systemctl start filebeat
-systemctl enable filebeat
+sudo systemctl start filebeat
+sudo systemctl enable filebeat
 ```
 
 ### Next, enable the Filebeat system module, which will examine local system logs:

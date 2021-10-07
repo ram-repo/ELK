@@ -40,6 +40,3 @@ output {
 systemctl start logstash
 systemctl enable logstash
 ```
-
-
-
